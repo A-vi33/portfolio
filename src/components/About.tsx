@@ -1,4 +1,4 @@
-import CV from '../assets/Vignesh Makala-1.pdf';
+import CV from '../assets/M.Vignesh.pdf';
 
 const About = () => {
   return (

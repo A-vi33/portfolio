@@ -1,6 +1,6 @@
 import { ExternalLink, Github } from 'lucide-react';
 import CAR from '../assets/Car_Zone.png';
-import PET from '../assets/Petstore.png';
+import NGO from '../assets/ngo.png';
 import PORT from '../assets/portfolio.png';
 
 const projects = [
@@ -12,11 +12,11 @@ const projects = [
     githubLink: 'https://github.com/A-vi33/Car_Zone.git',
   },
   {
-    title: 'petstore',
-    description: 'PetStore is an academic project at Itvedant that allows users to buy pets.',
-    image: PET,
+    title: 'NGO Management System (code-B)',
+    description: 'NGO Management System is a web application that helps manage NGO operations.',
+    image: NGO,
     technologies: ['Frontend', 'MYSQL', 'Django', 'Python'],
-    githubLink: 'https://github.com/A-vi33/Petstore.git',
+    githubLink: 'https://github.com/A-vi33/Code-B.git',
   },
   {
     title: 'portfolio',
