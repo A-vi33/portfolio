@@ -8,10 +8,9 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <img
-              src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80"
+              src="/photo.jpg"
               alt="Profile"
-              className="rounded-lg shadow-lg w-full"
-              loading="lazy"
+              className="rounded-lg shadow-lg w-full h-[700px] cover"
             />
           </div>
           <div className="md:w-1/2">
