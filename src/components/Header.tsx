@@ -16,6 +16,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#about" className="text-gray-600 hover:text-gray-900">About</a>
+            <a href="#experience" className="text-gray-600 hover:text-gray-900">Experience</a>
             <a href="#projects" className="text-gray-600 hover:text-gray-900">Projects</a>
             <a href="#skills" className="text-gray-600 hover:text-gray-900">Skills</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
@@ -50,6 +51,7 @@ const Header = () => {
           <div className="md:hidden">
             <div className="flex flex-col space-y-4 pt-4 pb-3">
               <a href="#about" className="text-gray-600 hover:text-gray-900">About</a>
+              <a href="#experience" className="text-gray-600 hover:text-gray-900">Experience</a>
               <a href="#projects" className="text-gray-600 hover:text-gray-900">Projects</a>
               <a href="#skills" className="text-gray-600 hover:text-gray-900">Skills</a>
               <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
