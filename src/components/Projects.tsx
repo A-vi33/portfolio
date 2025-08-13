@@ -5,6 +5,8 @@ import PORT from '../assets/portfolio.png';
 import PET from '../assets/Petstore.png';
 import RECIPE from '../assets/Recipe.png';
 import ASSISTANCE from '../assets/Assistance.png';
+import WEATHER from '../assets/Weather.png';
+import SMK from '../assets/SMK.png';
 
 const projects = [
   {
@@ -51,6 +53,21 @@ const projects = [
     technologies: ['React.js', 'TypeScript', 'Vite', 'Node.js', 'OpenAI API', 'Custom API integration'],
     githubLink: 'https://github.com/A-vi33/Assistance.git',
     deployLink: 'https://assistance-rose.vercel.app/',
+  },
+  {
+    title:'Personal-Weather-Dashboard',
+    description:'Personal-Weather-Dashboard is a web application that allows users to view the weather of their location.',
+    image:WEATHER,
+    technologies:['HTML', 'CSS', 'JavaScript', 'OpenWeatherMap API', 'Django', 'dbsqlite3'],
+    githubLink:'https://github.com/A-vi33/Personal-Weather-Dashboard_Makala-Vignesh.git',
+  },
+  {
+    title:'SMK_Interior',
+    description:'SMK Interior website - a React-based interior design company portfolio showcasing various design services including bedroom, kitchen, living room, and pooja room designs.',
+    image:SMK,
+    technologies:['React', 'TypeScript', 'Tailwind CSS'],
+    githubLink:'https://github.com/A-vi33/Ganesh_Interior.git',
+    deployLink:'https://ganesh-interior.vercel.app/',
   },
 ];
 
