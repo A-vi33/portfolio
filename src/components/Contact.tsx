@@ -46,12 +46,12 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
+        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12" data-aos="fade-down">
           Get in Touch
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Info */}
-          <div>
+          <div data-aos="fade-right" data-aos-delay="100">
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">
               Contact Information
             </h3>
@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div>
+          <div data-aos="fade-left" data-aos-delay="200">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">

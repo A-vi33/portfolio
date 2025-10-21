@@ -1,19 +1,19 @@
-import CV from '../assets/Vignesh_Resume.pdf';
+import CV from '../assets/Vignesh_Resume-1.pdf';
 
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">About Me</h2>
+        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12" data-aos="fade-down">About Me</h2>
         <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2" data-aos="fade-right" data-aos-delay="200">
             <img
               src="/photo.jpg"
               alt="Profile"
-              className="rounded-lg shadow-lg w-full h-[700px] cover"
+              className="rounded-lg shadow-lg w-full max-h-[400px] md:h-[500px] lg:h-[600px] object-cover mx-auto"
             />
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2" data-aos="fade-left" data-aos-delay="300">
             <h3 className="text-2xl font-semibold text-gray-900 mb-4">
               Passionate About Creating
             </h3>
@@ -32,6 +32,7 @@ const About = () => {
             <a
               href={CV} download="Vignesh_Resume.pdf"
               className="inline-block bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition duration-300"
+              data-aos="zoom-in" data-aos-delay="400"
             >
               Download Resume
             </a>

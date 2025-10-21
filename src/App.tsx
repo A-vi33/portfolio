@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import Header from './components/Header';
+import BackToTop from './components/BackToTop';
 
 // Lazy load components
 const Hero = lazy(() => import('./components/Hero'));
@@ -24,6 +25,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
+        <BackToTop />
       </Suspense>
     </div>
   );
